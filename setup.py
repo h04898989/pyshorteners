@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 import pyshorteners
 
-with open("README.md") as r:
+with open("README.md","r",encoding="utf-8") as r:
     README = r.read()
 
 TESTS_REQUIRE = [
